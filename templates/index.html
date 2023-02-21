@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Appliquer un modèle de Machine Learning à une image</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <h1>Appliquer un modèle de Machine Learning à une image</h1>
+    <form id="image-form" enctype="multipart/form-data">
+      <label for="image">Sélectionner une image :</label>
+      <input type="file" name="image" id="image">
+      <button type="submit">Appliquer le modèle</button>
+    </form>
+    <div id="result"></div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Résultat de la prédiction</title>
+  </head>
+  <body>
+    <h1>Résultat de la prédiction</h1>
+    <p>La catégorie prédite est : {{ category }}</p>
+  </body>
+</html>
